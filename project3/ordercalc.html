@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--
+            By: Leslie A Borst
+            Date: 04/07/2018
+            Project3: Foo-g's Pizza
+        -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Foo-g's Pizza</title>
+
+    
+        <script src="js/modernizr.custom.05819.js"></script>
+    </head>
+
+    <body>
+        <div class="wrapper">
+        <header>
+            <a href="index.html"><img src="images/fplogo.jpg" alt="Foo-g's pizza" title="Foo-g's pizza" class="logo"></a>
+            <h1>Foo-g's Pizza</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="ordercalc.html" class="active">Pizza Order Form(project3)</a></li>
+                    <li><a href="contact.html">Contact(project2)</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h2>Welcome to our Pizza Order Form</h2>
+                <P>
+                    Here you can build your own pizza and get an estimate of the cost of your pizza.
+                    Estimated price does not include tax.
+                </P>
+                <h3>Choose Your Size</h3>
+                <form name="order">
+                    <fieldset>
+                        <table>
+                        <tr>
+                            <td><label for="individual">Individual ($5.75)</label></td>                                        
+                            <td><input type="radio" id="individual" name="price" value="5.75"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="small">Small (8.25)</label></td>
+                            <td><input type="radio" id="small" name="price" value="8.25"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="medium">Medium ($9.75)</label></td>
+                            <td><input type="radio" id="medium" name="price" value="9.75"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="large">Large ($11.25)</label></td>
+                            <td><input type="radio" id="large" name="price" value="11.25"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="xLarge">X-Large ($12.75)</label></td>
+                            <td><input type="radio" id="xLarge" name="price" value="12.75"></td>
+                        </tr>
+                        </table> 
+                    </fieldset>
+                <h3>Choose Your Toppings</h3>
+                <h4><em>0.75 Each</em></h4>
+                    <fieldset>
+                        <table>
+                            <tr>
+                                <td><label for="item0">Cheese Only<em>(no extra charge)</em></label></td>               
+                                <td><input type="checkbox" id="item0" name="item" value=".75"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="item1">Pepperoni</label></td>               
+                                <td><input type="checkbox" id="item1" name="item" value=".75"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="item2">Ground Beef</label></td>
+                                <td><input type="checkbox" id="item2" name="item" value=".75"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="item3">Sausage</label></td>
+                                <td><input type="checkbox" id="item3" name="item" value=".75"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="item4">Grilled Chicken</label></td>
+                                <td><input type="checkbox" id="item4" name="item" value=".75"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="item5">Steak</label></td>
+                                <td><input type="checkbox" id="item5" name="item" value=".75"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="item6">Bacon</label></td>
+                                <td><input type="checkbox" id="item6" name="item" value=".75"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="item7">Ham</label></td>
+                                <td><input type="checkbox" id="item7" name="item" value=".75"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="item8">Onions</label></td>
+                                <td><input type="checkbox" id="item8" name="item" value=".75"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="item9">Black Olives</label></td>
+                                <td><input type="checkbox" id="item9" name="item" value=".75"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="item10">Green Olives</label></td>
+                                <td><input type="checkbox" id="item10" name="item" value=".75"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="item11">Tomatoes</label></td>
+                                <td><input type="checkbox" id="item11" name="item" value=".75"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="item12">Mushrooms</label></td>
+                                <td><input type="checkbox" id="item12" name="item" value=".75"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="item13">Green Peppers</label></td>
+                                <td><input type="checkbox" id="item13" name="item" value=".75"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="item14">Mild Peppers</label></td>
+                                <td><input type="checkbox" id="item14" name="item" value=".75"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="item15">Jalapeno</label></td>
+                                <td><input type="checkbox" id="item15" name="item" value=".75"></td>
+                            </tr>
+                            <tr>
+                                <td><label for="item16">Pineapple</label></td>
+                                <td><input type="checkbox" id="item16" name="item" value=".75"></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                <h3>Extras</h3>
+                    <fieldset>
+                        <table>
+                            <tr>
+                                <td><label >Extra Cheese?</label></td>
+                                <td><select name="cheese">
+                                        <option disabled selected>Select...</option>
+                                        <option value="yes">Yes</option>
+                                        <option value="no">No</option>
+                                    </select></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                <h3>Customer Information</h3>
+                    <fieldset>
+                        <table>
+                            <tr>
+                                <td>Name</td>
+                                <td><input type="text" name="name" id="name" size="30" placeholder="Full Name" autofocus="autofocus" required="required"> </td>
+                            </tr>
+                            <tr>  
+                                <td>Phone</td>
+                                <td><input type="tel" name="Phone Number" id="phone" size="30" placeholder="Phone Number" required="required"></td>
+                            </tr>
+                            <tr>
+                                <td>Email</td>
+                                <td><input type="email" name="email" id="email" size="30" placeholder="Email Address" required="required"></td>
+                            </tr>
+                            <tr>
+                                <td>Special Instructions</td>
+                                <td>
+                                    <textarea name="message" id="message" cols="60" rows="7" placeholder="Special instructions..."></textarea>
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                    <input id="submit" type="button" value="Order">
+                    <p id="total"></p>
+                </form>
+            </section>
+        </main>
+   
+        <footer>
+            <p>Copyright &copy; 2018 Leslie Borst | Education Purposes Only</p>
+            <ul>
+                <li>
+                    Check us out on <a href="https://www.facebook.com/Foo-Gs-Pizza-178855646434/" target="_blank">Facebook</a>!
+                </li>
+            </ul>
+            <p>
+                <a href="http://validator.w3.org/check?uri=referer" title="HTML5 Validation">HTML5 Validation</a> | <em><a href="../home.html">Back to My Homepage</a></em>
+            </p>
+        </footer>
+    </div>
+        <script src="js/orderCalc.js"></script>
+        <script src="js/orderval.js"></script>
+        
+    </body>
+</html>

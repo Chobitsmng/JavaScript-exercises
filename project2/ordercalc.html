@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--
+            By: Leslie A Borst
+            Date: 03/10/2018
+            Project2: Foo-g's Pizza
+        -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Foo-g's Pizza</title>
+
+    
+        <script src="js/modernizr.custom.05819.js"></script>
+    </head>
+
+    <body>
+        <div class="wrapper">
+        <header>
+            <a href="index.html"><img src="images/fplogo.jpg" alt="Foo-g's pizza" title="Foo-g's pizza" class="logo"></a>
+            <h1>Foo-g's Pizza</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="ordercalc.html" class="active">Pizza Calculator</a></li>
+                    <li><a href="contact.html">Contact(project2)</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h2>Welcome to our order calculater!</h2>
+                <P>
+                    Here you can build your own pizza and get an estimate of the cost of your pizza.
+                    Estimated price does not include tax.
+                </P>
+                <h3>Choose Your Size</h3>
+                <form>  
+                    <label for="individual">Individual ($5.75)</label>                                           
+                    <input type="radio" id="individual" name="price" value="5.75">
+                    
+                    <label for="small">Small (8.25)</label>
+                    <input type="radio" id="small" name="price" value="8.25">
+                    
+                    <label for="medium">Medium ($9.75)</label>
+                    <input type="radio" id="medium" name="price" value="9.75">
+                    
+                    <label for="large">Large ($11.25)</label>
+                    <input type="radio" id="large" name="price" value="11.25">
+                    
+                    <label for="xLarge">X-Large ($12.75)</label>
+                    <input type="radio" id="xLarge" name="price" value="12.75">       
+                </form>
+                
+                <h3>Choose Your Toppings</h3>
+                <h4>0.75 Each</h4>
+                <form>  
+                    <label for="item1">Pepperoni</label>               
+                    <input type="checkbox" id="item1" value=".75">
+                    
+                    <label for="item2">Ground Beef</label>
+                    <input type="checkbox" id="item2" value=".75">
+                    
+                    <label for="item3">Sausage</label>
+                    <input type="checkbox" id="item3" value=".75">
+                    
+                    <label for="item4">Grilled Chicken</label>
+                    <input type="checkbox" id="item4" value=".75">
+                    
+                    <label for="item4">Steak</label>
+                    <input type="checkbox" id="item5" value=".75">
+                    
+                    <label for="item6">Bacon</label>
+                    <input type="checkbox" id="item6" value=".75">
+                    
+                    <label for="item7">Ham</label>
+                    <input type="checkbox" id="item7" value=".75">
+                    
+                    <label for="item8">Onions</label>
+                    <input type="checkbox" id="item8" value=".75">
+                    
+                    <label for="item9">Black Olives</label>
+                    <input type="checkbox" id="item9" value=".75">
+                    
+                    <label for="item12">Green Olives</label>
+                    <input type="checkbox" id="item10" value=".75">
+                    
+                    <label for="item11">Tomatoes</label>
+                    <input type="checkbox" id="item11" value=".75">
+                    
+                    <label for="item10">Mushrooms</label>
+                    <input type="checkbox" id="item12" value=".75">
+                    
+                    <label for="item13">Green Peppers</label>
+                    <input type="checkbox" id="item13" value=".75">
+                    
+                    <label for="item14">Mild Peppers</label>
+                    <input type="checkbox" id="item14" value=".75">
+                    
+                    <label for="item15">Jalapeno</label>
+                    <input type="checkbox" id="item15" value=".75">
+                    
+                    <label for="item16">Pineapple</label>
+                    <input type="checkbox" id="item16" value=".75">
+                                       
+                    <input type="button" id="submit" value="Calculate">
+                    <input id="reset" type="reset" value="Reset">
+                    <p id="total"></p>
+                      
+                </form>
+            </section>
+        </main>
+   
+        <footer>
+            <p>Copyright &copy; 2018 Leslie Borst | Education Purposes Only</p>
+            <ul>
+                <li>
+                    Check us out on <a href="https://www.facebook.com/Foo-Gs-Pizza-178855646434/" target="_blank">Facebook</a>!
+                </li>
+            </ul>
+            <p>
+                <a href="http://validator.w3.org/check?uri=referer" title="HTML5 Validation">HTML5 Validation</a> | <em><a href="../home.html">Back to My Homepage</a></em>
+            </p>
+        </footer>
+    </div>
+        <script src="js/orderCalc.js"></script>
+    </body>
+</html>

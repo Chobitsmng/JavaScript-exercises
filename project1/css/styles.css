@@ -1,0 +1,185 @@
+/*Base Styles*/
+
+html {
+    box-sizing: border-box;
+    min-height: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background-color: salmon;
+    background-repeat: no-repeat;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+.logo {
+    align-self: flex-start;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+ul li a {
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: #000;
+}
+
+a:visited {
+    color: rgb(158, 16, 16);
+}
+
+.active,
+a:active {
+    color: salmon;
+    background-color: white;
+    padding: 5px;
+}
+
+section {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section img {
+    width: 650px;
+    height: auto;
+}
+section h2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+section h3 {
+    margin-top: 20px;
+    
+}
+
+section p {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: rgb(19, 39, 94);
+}
+
+footer ul {
+    margin: 0 auto;
+}
+
+.town-seal {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+/*Form/ Calculator Styles*/
+
+form h4 {
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+
+input {
+    margin-bottom: 20px;
+}
+
+input, 
+textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+}
+
+.button {
+    padding-left: 90px;
+    margin-top: 20px;
+}
+  
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #000;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 20px;
+    background-color: rgb(19, 39, 94);
+  }
+
+/*Menu Gallery*/
+
+.menu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.menu img {
+    margin: 10px;
+    height: 800px;
+    width: auto;
+}
